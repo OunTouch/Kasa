@@ -8,15 +8,7 @@ import Footer from "../../components/footer/Footer";
 import Collapse from '../../components/collapse/Collapse';
 import greyStar from '../../assets/grey_star.png';
 import redStar from '../../assets/red_star.png';
-/*
-Instructions d'importation :
-import './accommodation.scss' : Importe le fichier SCSS pour le style.
-import { useEffect, useState } from "react" : Importe les hooks useEffect et useState de React.
-import { useParams } from "react-router-dom" : Importe le hook useParams de React Router, qui permet d'accéder aux paramètres d'URL.
-import datas from '../../data/data' : Importe un fichier de données nommé datas à partir de l'emplacement spécifié.
-import Header from "../../components/header/Header" : Importe le composant Header à partir de l'emplacement spécifié.
-import Slider from "../../components/carousel/Carousel" : Importe le composant Slider à partir de l'emplacement spécifié.
-*/
+
 
 export default function Accomodation() {
 	
