@@ -46,21 +46,3 @@ export default function About() {
 		</div>
 	)
 }
-/*
-
-Le code que vous avez fourni est le composant "About" qui utilise un fichier "about.scss" pour les styles. Il importe également plusieurs autres composants tels que "Header", "Banner", "Collapse" et "Footer".
-
-Voici une explication du code :
-
-Il importe le fichier "about.scss" qui contient les styles pour le composant.
-Il importe les composants "Header", "Banner", "Collapse" et "Footer" qui seront utilisés dans le composant "About".
-Le composant est défini comme une fonction appelée "About".
-À l'intérieur du composant, il définit un tableau "aboutDatas" qui contient les données à afficher dans les composants "Collapse". Chaque élément de "aboutDatas" a une propriété "id", "title" et "content".
-Le composant retourne une structure HTML qui comprend :
-Le composant "Header".
-Le composant "Banner".
-Une balise <main> avec la classe CSS "about_main".
-À l'intérieur de la balise <main>, il y a une boucle aboutDatas.map() qui itère sur chaque élément de "aboutDatas" et retourne un div avec la classe CSS "about_main_collapse". À l'intérieur de ce div, le composant "Collapse" est utilisé avec les propriétés "title" et "content" extraites de chaque élément de "aboutDatas". Chaque "Collapse" est entouré d'un div pour ajouter une marge de 30 pixels en haut et en bas.
-Le composant "Footer".
-Le composant "About" est exporté en tant que composant par défaut, ce qui permet de l'importer et de l'utiliser dans d'autres parties de l'application.
-*/

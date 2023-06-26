@@ -39,14 +39,6 @@ const router = createBrowserRouter([
 	},
 ]);
 
-/*
-La fonction App retourne un élément React qui englobe le composant RouterProvider en lui passant la prop router avec la valeur de l'objet router défini précédemment.
-
-Le composant RouterProvider est probablement un composant personnalisé utilisé dans le cadre d'un système de routage spécifique. Il reçoit l'objet router en tant que prop, qui contient la configuration des routes et est responsable de la gestion de la navigation dans l'application.
-
-En enveloppant le composant RouterProvider avec des balises <>...</>, il est possible de retourner plusieurs éléments enfants sans nécessiter de wrapper supplémentaire. Cette syntaxe est couramment utilisée en utilisant React.Fragment pour éviter d'ajouter des nœuds DOM supplémentaires lors du rendu.
-
-En résumé, la fonction App retourne un composant parent qui englobe le composant RouterProvider, lui fournissant l'objet router en tant que prop. Cela permet à l'application d'utiliser le système de routage configuré pour gérer la navigation entre les différentes pages de l'application.*/
 function App() {
 	return (
 		<>
